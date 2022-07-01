@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(to top, black, rgba(0, 0, 0, 0.336)), url(img/b55caef4209f96da514e7e70dcdcc7b77c0b9386.jpg) ;
+}
+
+h2{
+    color: white;
+    margin: 1rem;
+}
+.formJugador{
+    margin-top: 1rem;
+}
+
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.jugador{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.507);
+    margin-top: 1rem;
+}
+
+.jugador h3, .jugador p{
+    color: white;
+}
+
+
